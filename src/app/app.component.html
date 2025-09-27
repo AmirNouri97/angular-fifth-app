@@ -12,5 +12,8 @@
   <!-- with out alias  -->
   <!-- <p appAuth userType="admin">only admin can see this!</p> -->
   <!-- with alias  -->
-  <p appAuth="admin">only admin can see this!</p>
+  <!-- <p appAuth="admin">only admin can see this!</p> -->
+  <ng-template appAuth="admin">
+    <p>only admin can see this!</p>
+  </ng-template>
 </main>
